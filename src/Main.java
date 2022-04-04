@@ -27,8 +27,21 @@ public class Main
 
         System.out.println(FiftyFifty.getFace());
 
-        FourSides AddOne = new FourSides();
-        AddOne.displaySides();
+        FourSides NoParameters = new FourSides();
+        NoParameters.displaySides();
+        System.out.println();
+        FourSides OneParameters = new FourSides(2);
+        OneParameters.displaySides();
+        System.out.println();
+        FourSides TwoParameters = new FourSides(2,4);
+        TwoParameters.displaySides();
+        System.out.println();
+        FourSides ThreeParameters = new FourSides(2,4,6);
+        ThreeParameters.displaySides();
+        System.out.println();
+        FourSides FourParameters = new FourSides(2,4,6,8);
+        FourParameters.displaySides();
+
 
     }
 }

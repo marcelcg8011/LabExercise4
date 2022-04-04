@@ -27,5 +27,8 @@ public class Main
 
         System.out.println(FiftyFifty.getFace());
 
+        FourSides AddOne = new FourSides();
+        AddOne.displaySides();
+
     }
 }

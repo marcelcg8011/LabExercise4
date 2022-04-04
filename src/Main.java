@@ -23,5 +23,9 @@ public class Main
         System.out.println("area of second is " + second.getArea());
         System.out.println("perimeter of second is " + second.getPerimeter());
 
+        Coin FiftyFifty = new Coin();
+
+        System.out.println(FiftyFifty.getFace());
+
     }
 }

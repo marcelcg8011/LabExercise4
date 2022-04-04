@@ -15,5 +15,13 @@ public class Main
         System.out.println("Name is " + Champ.getName());
         System.out.println("Age is " + Champ.getAge());
 
+        Rectangle first = new Rectangle(10, 20);
+        Rectangle second = new Rectangle(30, 40);
+
+        System.out.println("area of first is " + first.getArea());
+        System.out.println("perimeter of first is " + first.getPerimeter());
+        System.out.println("area of second is " + second.getArea());
+        System.out.println("perimeter of second is " + second.getPerimeter());
+
     }
 }
